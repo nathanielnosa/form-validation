@@ -1,0 +1,2 @@
+1. Make sure you add the bootstrap liberary
+2. It a form validation using regular expression

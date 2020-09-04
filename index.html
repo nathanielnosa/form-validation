@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation Using Js</title>
+  <link rel="stylesheet" href="bootstrap-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h4 align='center'>Form validation Using <br> Javascript</h4>
+        <form action="#">
+
+          <div class="form-group row">
+            <div class="col">
+              <input type="text" class="form-control" id="name" placeholder="Enter Name" autocomplete="off">
+              <div class="invalid-feedback">
+                Name must be Surname and Firstname
+              </div>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="email" placeholder="Enter Email" autocomplete="off">
+              <div class="invalid-feedback">
+                Enter a valid email
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col">
+              <input type="text" class="form-control" id="phone" placeholder="Enter Phone autocomplete="off"">
+              <div class="invalid-feedback">
+                Number must be in (234)0000000
+              </div>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="zip" placeholder="Enter zipcode" autocomplete="off">
+              <div class="invalid-feedback">
+                Enter a valid zipcode(E.g 000-000)
+              </div>
+            </div>
+          </div>
+            <button type="submit" class="btn btn-block btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="bootstrap-dist/js/bootstrap.min.js"></script>
+  <script src="form.js"></script>
+</body>
+</html>
